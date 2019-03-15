@@ -1,8 +1,12 @@
 # For commercial use：
 > Remove share function
+>
 > link  account function (except: gitlab login)
->-----------------------------------------------
+>
+-----------------
+>
 > waiting to do :
+>
 > cas  account login
 
 -----------------
