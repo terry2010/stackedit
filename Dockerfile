@@ -5,8 +5,7 @@ WORKDIR /opt/stackedit/stackedit_v4
 
 ENV SERVE_V4 true
 ENV V4_VERSION 4.3.22
-RUN npm pack stackedit@$V4_VERSION \
-  && tar xzf stackedit-*.tgz --strip 1 \
+RUN git clone https://github.com/terry2010/stackedit.git . \
   && yarn \
   && yarn cache clean \
   && rm -rf ~/.cache/bower \
