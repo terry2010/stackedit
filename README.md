@@ -11,6 +11,23 @@
 
 -----------------
 
+# How to
+```
+git clone https://github.com/terry2010/stackedit.git
+docker build -t terry2010/stackedit .
+docker run -d --name chengyu1-stackedit -p 8888:8080 chengyu1/stackedit:latest
+```
+
+just visit : 
+
+> http://server_ip:8888
+
+
+
+
+
+------------------
+
 
 # StackEdit
 
