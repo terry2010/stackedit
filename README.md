@@ -3,13 +3,7 @@
 >
 > link  account function (except: gitlab login)
 >
------------------
->
-> waiting to do :
->
-> cas  account login
 
------------------
 
 # How to
 ```
