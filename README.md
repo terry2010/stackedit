@@ -14,6 +14,7 @@
 # How to
 ```
 git clone https://github.com/terry2010/stackedit.git
+cd stackedit
 docker build -t terry2010/stackedit .
 docker run -d --name terry2010-stackedit -p 8888:8080 terry2010/stackedit:latest
 ```
